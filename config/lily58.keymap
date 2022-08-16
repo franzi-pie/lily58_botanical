@@ -44,8 +44,8 @@
 //                     |      |      |      |        |  |       |      |       |       |
 			bindings = <
 &trans	 	&kp EXCL     	&kp DQT     &kp CARET   &kp DOLLAR	&kp PRCNT                  &kp AMPS &kp FSLH    &kp NON_US_BSLH  &kp LBKT    &kp RBKT  &kp QMARK
-&trans     	&kp AT          &trans      &kp RALT(5) &trans      &trans                     &trans   &kp RALT(U) &trans           &kp RALT(O) &trans    &kp DEL
-&trans  	&kp RALT(A)     &kp RALT(S) &trans      &trans   	&trans                     &kp PLUS &kp MINUS   &kp STAR	     &kp FSLH  	 &kp EQUAL &trans
+&trans     	&kp AT          &trans      &kp RA(5)   &trans      &trans                     &trans   &kp RA(U)   &trans           &kp RA(O)   &trans    &kp DEL
+&trans  	&kp RA(A)       &kp RA(S)   &trans      &trans   	&trans                     &kp PLUS &kp MINUS   &kp STAR	     &kp FSLH  	 &kp EQUAL &trans
 &kp LSHFT  	&trans 			&trans 		&trans 		&trans      &trans    &trans   &trans  &trans   &trans      &trans     		 &trans  	 &trans    &kp RSHFT
 										&trans      &trans      &trans    &trans   &trans  &trans   &trans      &trans
 			>;
