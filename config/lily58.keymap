@@ -28,7 +28,7 @@
 			bindings = <
 &kp ESC   		&kp N1 &kp N2 			&kp N3   &kp N4   			&kp N5                     					&kp N6 		&kp N7   		&kp N8    	&kp N9  &kp N0   &kp PSCRN
 &kp TAB   		&kp Q  &kp W  			&kp E    &kp R    			&kp T                      					&kp Z  		&kp U   		&kp I     	&kp O   &kp P    &kp BSPC
-&lt UML LC(V)   &kp A  &kp S  			&kp D    &kp F    			&kp G                      					&kp H  		&kp J    		&kp K     	&kp L   &kp SEMI &mt RSHFT ENTER
+&lt UML LC(V)   &kp A  &kp S  			&kp D    &kp F    			&mt LC(LS(G)) G                      		&kp H  		&kp J    		&kp K     	&kp L   &kp SEMI &mt RSHFT ENTER
 &mt LSHFT LPAR 	&kp Y  &kp X  			&kp C    &kp V    			&kp B  		&lt UML LC(C)   &lt UML LC(C)   &kp N  		&kp M    		&kp COMMA 	&kp DOT &kp FSLH &mt RCTRL RPAR
                        &mt LCTRL K_UNDO &kp LGUI &mt LALT LC(C)  	&kp SPACE  									&kp SPACE  	&mt RALT F5	&tog NUM 	&kp SQT
 			>;
