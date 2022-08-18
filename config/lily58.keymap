@@ -28,9 +28,9 @@
 			bindings = <
 &kp ESC   		&kp N1 &kp N2 			&kp N3   &kp N4   			&kp N5                     					&kp N6 		&kp N7   		&kp N8    	&kp N9  &kp N0   &kp PSCRN
 &kp TAB   		&kp Q  &kp W  			&kp E    &kp R    			&kp T                      					&kp Z  		&kp U   		&kp I     	&kp O   &kp P    &kp BSPC
-&lt UML K_PASTE &kp A  &kp S  			&kp D    &kp F    			&kp G                      					&kp H  		&kp J    		&kp K     	&kp L   &kp SEMI &mt RSHFT ENTER
-&mt LSHFT LPAR 	&kp Y  &kp X  			&kp C    &kp V    			&kp B  		&lt UML K_COPY   &lt UML K_COPY &kp N  		&kp M    		&kp COMMA 	&kp DOT &kp FSLH &mt RCTRL RPAR
-                       &mt LCTRL K_UNDO &kp LGUI &mt LALT K_COPY  	&kp SPACE  									&kp SPACE  	&mt RALT K_FIND	&tog NUM 	&kp SQT
+&lt UML LC(V)   &kp A  &kp S  			&kp D    &kp F    			&kp G                      					&kp H  		&kp J    		&kp K     	&kp L   &kp SEMI &mt RSHFT ENTER
+&mt LSHFT LPAR 	&kp Y  &kp X  			&kp C    &kp V    			&kp B  		&lt UML LC(C)   &lt UML LC(C)   &kp N  		&kp M    		&kp COMMA 	&kp DOT &kp FSLH &mt RCTRL RPAR
+                       &mt LCTRL K_UNDO &kp LGUI &mt LALT LC(C)  	&kp SPACE  									&kp SPACE  	&mt RALT F5	&tog NUM 	&kp SQT
 			>;
 
 		};
@@ -62,8 +62,8 @@
 			bindings = <
 &trans  	&kp F1 &kp F2 	&kp F3 	 &kp F4   	&kp F5                       	&kp F6  &trans   &kp FSLH &kp STAR   &kp MINUS  &trans
 &to BTST  	&trans &trans 	&kp UP   &trans  	&trans                       	&trans  &kp N7   &kp N8   &kp N9     &kp PLUS   &kp DEL
-&kp K_PASTE &trans &kp LEFT &kp DOWN &kp RIGHT  &trans                      	&trans  &kp N4   &kp N5   &kp N6   	 &kp EQUAL  &trans
-&trans   	&trans &trans 	&trans   &trans 	&trans   &kp K_COPY   	&trans  &trans  &kp N1   &kp N2   &kp N3   	 &kp ENTER  &trans
+&kp LC(V)   &trans &kp LEFT &kp DOWN &kp RIGHT  &trans                      	&trans  &kp N4   &kp N5   &kp N6   	 &kp EQUAL  &trans
+&trans   	&trans &trans 	&trans   &trans 	&trans   &kp LC(C)   	&trans  &trans  &kp N1   &kp N2   &kp N3   	 &kp ENTER  &trans
 							&trans   &trans  	&trans   &trans   		&trans  &kp N0  &tog DEF &kp KP_COMMA
 			>;
 
